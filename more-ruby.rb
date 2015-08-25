@@ -16,6 +16,7 @@ end
 #arity; (number of arguments)
 system('clear') #the system methos runs any string you give it on the command line
 puts multiply(10, 20)
+
 puts multiply(10, 5)
 
 puts "welcome to square -ulator"
