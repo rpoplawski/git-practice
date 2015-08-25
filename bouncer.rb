@@ -4,7 +4,7 @@ def response
   response = gets.chomp.to_i
   if response <= 18
     puts "You can do nothing."
-  elsif response > 18 && response < 21
+  elsif response > 18 && response < 21 #age between 18 and 21
     puts "You can smoke and vote."
   elsif response >= 21 && response < 25
     puts "You can vote and smoke."
