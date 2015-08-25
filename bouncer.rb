@@ -8,7 +8,7 @@ def response
     puts "You can smoke and vote."
   elsif response >= 21 && response < 25
     puts "You can vote and smoke."
-  elsif response >= 25
+  elsif response >= 25 # age greater than 25
     puts "You can smoke, drink, rent a car, and conquer the world."
   else response  == "q"
   #exit
